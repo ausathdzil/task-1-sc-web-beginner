@@ -1,0 +1,30 @@
+body {
+  font-family: 'Geist', Arial, Helvetica, sans-serif;
+  background-color: #fafafa;
+  color: #09090b;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 64px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #71717a;
+}
+
+a:hover {
+  color: #6495ed;
+}
